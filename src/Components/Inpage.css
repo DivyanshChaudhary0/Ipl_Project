@@ -1,0 +1,30 @@
+.inPageContainer{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #111;
+}
+.dets{
+    width: 40%;
+    margin: 0px auto;
+    /* background-color: #fff; */
+    background-color: #41414189;
+    backdrop-filter: blur(5px);
+}
+.btn{
+    width: 50%;
+    padding: 8px 0px;
+    margin-block: 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.playerDetails{
+    padding: 5px 15px;
+}
+.playerDetails .player{
+    font-size: 18px;
+    font-weight: 500;
+    opacity: .9;
+}
+.playerDetails .role{
+    opacity: .7;
+}
