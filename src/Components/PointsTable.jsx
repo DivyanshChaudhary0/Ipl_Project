@@ -1720,7 +1720,7 @@ const PointsTable = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center gap-2 px-10 py-16 w-full">
+    <div className="flex flex-col lg:items-center lg:justify-center gap-2 lg:px-10 py-6 lg:py-16 w-full">
       {pointsData.map(
         (
           {
@@ -1735,7 +1735,7 @@ const PointsTable = () => {
           i
         ) => (
           <div key={i}
-            className="lg:w-[40%] w-full flex lg:gap-4 items-center justify-between lg:px-4 py-2 border-current border-solid bg-slate-500 rounded"
+            className="lg:w-[40%] w-full flex lg:gap-4 items-center justify-between px-2 lg:px-4 py-2 border-current border-solid bg-slate-500 rounded"
           >
             <span className=" hidden lg:block w-[20px] bg-slate-50 text-black text-center rounded-full">
               {i + 1}
