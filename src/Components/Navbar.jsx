@@ -4,7 +4,7 @@ import { Link, Outlet } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <nav className="nav"
+      <nav className="nav "
         style={{
           width: "100%",
           paddingTop: "40px",
@@ -12,8 +12,7 @@ const Navbar = () => {
           backgroundColor: "#223577",
         }}>
 
-        <div className="elem" style={{
-            width: "54%",
+        <div className="elem lg:w-full lg:items-center lg:p-0 lg:m-0 lg:justify-between" style={{
             margin: "0px auto",
             display: "flex",
             alignItems: "flex-end",

@@ -1735,19 +1735,19 @@ const PointsTable = () => {
           i
         ) => (
           <div key={i}
-            className="w-[40%] flex gap-4 items-center px-4 py-2 border-current border-solid bg-slate-500 rounded"
+            className="lg:w-[40%] w-full flex lg:gap-4 items-center justify-between lg:px-4 py-2 border-current border-solid bg-slate-500 rounded"
           >
-            <span className="w-[20px] bg-slate-50 text-black text-center rounded-full">
+            <span className=" hidden lg:block w-[20px] bg-slate-50 text-black text-center rounded-full">
               {i + 1}
             </span>
-            <span><img src="https://res.cloudinary.com/digkgdovw/image/upload/v1715267905/iplTeamLogo/" alt="" /></span>
-            <span className="w-[5vw] text-center">{teamName}</span>
-            <span className="pr-4">{matchesPlayed}</span>
-            <span className="pr-6">{matchesWon}</span>
-            <span className="pr-6">{matchesLost}</span>
-            <span className="pr-4">{nrr}</span>
-            <span className="pr-6">{points}</span>
-            <span className="pr-4 flex gap-1">
+            <span className="hidden lg:block"><img src="https://res.cloudinary.com/digkgdovw/image/upload/v1715267905/iplTeamLogo/" alt="" /></span>
+            <span className="w-[5vw] text-center pr-8 lg:pr-0">{teamName}</span>
+            <span className="lg:pr-4 pr-2">{matchesPlayed}</span>
+            <span className="lg:pr-6">{matchesWon}</span>
+            <span className="lg:pr-6">{matchesLost}</span>
+            <span className="lg:pr-4">{nrr}</span>
+            <span className="lg:pr-6">{points}</span>
+            <span className="lg:pr-4 flex gap-1">
               {form
                 .reverse()
                 .map((data) =>
